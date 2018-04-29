@@ -1,12 +1,16 @@
 ## Prerequisites
+```
+ffmpeg
+cuda (v8.0)
+```
 
-1. FFMPEG
-2. MatConvNet
-3. For face alignment
-  (a) scikit-image
-  (b) dlib 18.18 (install using setup.py)
-  (c) numpy
-  (d) scipy
+For face alignment:
+```
+scikit-image
+dlib (v18.18)
+numpy
+scipy
+```
 
 ## Setting up Matconvnet
 ```
